@@ -16,10 +16,6 @@
 			padding-bottom:40px;
 			padding-top:30px;
 		}
-		.header {
-			margin-bottom:20px;
-			overflow:hidden;
-			}
 		.main {
 			margin-left:10px;
 			}
@@ -64,6 +60,7 @@
 			height:400px;
 			align-items:center;
 		}
+		.realheader {overflow:hidden;}
 		@media (max-width:480px) {
 			.footer {
 			display:flex;
@@ -74,24 +71,16 @@
 			justify-content:center;
 			}
 			.twt {display:none;}
+			.header {background-image:url("../image/mana.png")};
 		}
 		@media (min-width:480px) {
 			#mobile {display:none;}
-			.mblmana {display:none;}
 		}
-		.mobile {
-			color:white;
-			font-size:1.7em;
-			margin-top:5px;
-		}
-		img {
-			max-width:100%;
-			height:auto;
 		}
 		.links {
 			width:250px;
 			height:250px;
-			margin-right:40px;
+			margin-right:60px;
 		}
 		h4 {
 			color:white;
