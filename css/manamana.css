@@ -18,6 +18,7 @@
 		}
 		.header {
 			margin-bottom:20px;
+			overflow:hidden;
 			}
 		.main {
 			margin-left:10px;
@@ -75,21 +76,17 @@
 			.twt {display:none;}
 		}
 		@media (min-width:480px) {
-			#mobile {display:none;
-					display:block;
-					color:white;
-					font-size:1.7em;
-					margin-top:5px;}
-			.mobilemana {display:none;}
+			#mobile {display:none;}
+			.mblmana {display:none;}
 		}
-		.mobilemana {
-			height:300px;
-			width:250px;
+		.mobile {
+			color:white;
+			font-size:1.7em;
+			margin-top:5px;
 		}
 		img {
 			max-width:100%;
 			height:auto;
-			vertical-align:bottom;
 		}
 		.links {
 			width:250px;
